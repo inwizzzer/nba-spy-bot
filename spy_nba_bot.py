@@ -2,7 +2,7 @@ import random
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
-TOKEN = "8310822414:AAFjjFU7thWFEpCiUTcHhLk5jP7eXuW51hw"  # <-- вставь сюда реальный токен от BotFather
+TOKEN = "8616104481:AAHJX8Y42LIsWk7Qed8eBPjL3zkENl9oIBM"  # <-- вставь сюда реальный токен от BotFather
 
 NBA_PLAYERS = {
     "LeBron James": "https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png",
@@ -159,3 +159,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
